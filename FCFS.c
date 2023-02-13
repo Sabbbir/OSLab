@@ -12,20 +12,20 @@ int main()
     int pid[15];
     int bt[15];
     int n;
-    printf("Number of processes: ");
+    printf("Number of Processes: ");
     scanf("%d", &n);
 
-    printf("Enter process id of all the processes: \n");
+    printf("Enter process id of all the Processes: \n");
     for (int i = 0; i < n; i++)
     {
-        printf("Process id of process %d: ", i + 1);
+        printf("Process id of Process %d: ", i + 1);
         scanf("%d", &pid[i]);
     }
 
-    printf("Enter burst time of all the processes: \n");
+    printf("Enter burst time of all the Processes: \n");
     for (int i = 0; i < n; i++)
     {
-        printf("Burst time of process %d: ", pid[i]);
+        printf("Burst time of Process %d: ", pid[i]);
         scanf("%d", &bt[i]);
     }
 
