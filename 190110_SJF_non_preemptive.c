@@ -62,8 +62,8 @@ int main()
     {
         printf("\nP%d\t %d\t %d\t %d \t %d \t %d",p[i],at[i],bt[i],ct[i],tat[i],wt[i]);
     }
-    printf("\nAvg turnaround time is %f",atat);
+    printf("\nAvg turnaround time is %.2f",atat);
 
-    printf("\nAvg wating timme is %f\n",awt);
+    printf("\nAvg wating timme is %.2f\n",awt);
     return 0;
 }

@@ -1,11 +1,3 @@
-// FCFS stands for First Come First Serve
-// It is a scheduling algorithm that is used in operating systems
-// FCFS is a non-preemptive algorithm that is easy to implement
-// It is a non-preemptive algorithm because it does not interrupt the process
-// FCFS scheduling algorithm that automatically executes
-//     the queued process and requests in the order of their arrival
-// It allocates the job that first arrived in the queue
-//     to the CPU and then allocates the next job in the queue
 #include <stdio.h>
 int main()
 {

@@ -1,8 +1,3 @@
-// A Cpu scheduling algo in which the CPU performs the task having higher priority first
-// If two or more processes have the same priority, then the FCFS algorithm is used to schedule them 
-// Priority scheduling is of two types: 
-// i) Preemptive Priority Scheduling: Resource can be voluntarily released by the process
-// ii) Non-Preemptive Priority Scheduling: If a process starts, until it is completed, it cannot be interrupted
 #include<stdio.h>
  
 int main()
